@@ -1,0 +1,11 @@
+[
+    {
+        "name": "COMMENT",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "UPDATE_LAST_LOGIN",
+        "private": true
+    }
+]

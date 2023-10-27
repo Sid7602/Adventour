@@ -1,0 +1,19 @@
+{
+    "id": "6507c156a5f4f38ef80a4baf",
+    "name": "LAST_LOGIN",
+    "type": "AUTHENTICATION",
+    "config": {
+        "operation_type": "LOGIN",
+        "providers": [
+            "local-userpass"
+        ]
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "UPDATE_LAST_LOGIN"
+            }
+        }
+    }
+}
